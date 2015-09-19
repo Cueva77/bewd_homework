@@ -1,11 +1,14 @@
-print "What's your first name?"
-first_name = gets.chomp
-print "Where we grew up?"
-grew_up = gets.chomp
-print "what is your current ocupation?"
-occupation = gets.chomp
-print "hidden talent?"
-hidden_talent = gets.chomp
+puts "dog"
+name = gets.chomp
 
-puts "Your name is #{first_name} where are you from #{grew_up}
-what is your occupation #{occupation},any hiddent talent #{hidden_talent}!”
+puts "dog" + name.downcase
+
+puts "what sound does a" + name.downcase + "make"
+sound = get.chomp
+
+puts "woof" + sound.downcase
+
+puts "the" + name.downcase + "goes" + sound.downcase.strip + " " +
+sound.downcase.strip + " " + sound.downcase.strip
+
+puts "the" + name.downcase + "goes" + (sound.downcase + "," + " ") * (num - 1) + sound.downcase + "."
